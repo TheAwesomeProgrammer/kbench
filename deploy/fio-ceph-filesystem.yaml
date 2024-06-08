@@ -7,7 +7,7 @@ spec:
   #volumeMode: Block
   storageClassName: ceph-filesystem
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 33Gi
